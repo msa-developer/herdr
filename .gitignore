@@ -1,0 +1,10 @@
+# runtime state — regenerate by herdr, never hand-edited
+*.log
+*.sock
+session.json
+session-snapshots/
+.plugins.lock
+
+# plugin registry + checkouts — reinstall with `herdr plugin install`
+plugins.json
+plugins/
