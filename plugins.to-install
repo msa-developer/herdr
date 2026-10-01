@@ -1,0 +1,5 @@
+# herdr plugins — restore on new OS with:
+#   herdr plugin install <source>
+# Agent: append any plugin installed later to this file.
+
+herdr plugin install paulbkim-dev/vim-herdr-navigation
