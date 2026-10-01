@@ -17,7 +17,8 @@ resize_pane_right = "prefix+l"
 switch_tab = ["prefix+1..9", "alt+1..9"]
 next_tab = ""
 new_workspace = "prefix+n"
-rename_workspace = "prefix+comma"
+rename_tab = "prefix+comma"
+rename_workspace = "prefix+period"
 
 [[keys.command]]
 key = "ctrl+h"
