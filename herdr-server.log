@@ -1,0 +1,115 @@
+2026-10-01T03:31:16.751363Z  INFO herdr::api::server: api server listening path=/home/person/.config/herdr/herdr.sock
+2026-10-01T03:31:16.757445Z  INFO herdr::persist::io: session file is missing event="persist.restore" subsystem="persist" outcome="missing" path=/home/person/.config/herdr/session.json
+2026-10-01T03:31:16.757591Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-10-01T03:31:17.123892Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-01T03:31:17.126217Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=40 cols=120 scrollback_limit_bytes=10000000
+2026-10-01T03:31:17.130226Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=26007
+2026-10-01T03:31:17.130949Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w1" pane_id=1
+2026-10-01T03:31:17.130974Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-10-01T03:31:17.130991Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T03:31:17.131004Z  INFO herdr::server::headless::bootstrap: created startup workspace cwd=/home/person
+2026-10-01T03:31:17.131175Z  INFO herdr::server::headless: client protocol socket listening path=/home/person/.config/herdr/herdr-client.sock
+2026-10-01T03:31:17.131322Z  INFO herdr::server::headless::bootstrap: herdr server started api_socket=/home/person/.config/herdr/herdr.sock client_socket=/home/person/.config/herdr/herdr-client.sock
+2026-10-01T03:31:17.131649Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=25976
+2026-10-01T03:31:17.387761Z  INFO herdr::server::headless: client connected client_id=2 cols=121 rows=39 cell_width_px=13 cell_height_px=27 surface_active=true render_encoding=SemanticFrame
+2026-10-01T03:31:22.235396Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/person/.config/herdr/session.json backup_path=/home/person/.config/herdr/session-snapshots/session-000000000000000000001790825482134460522-25976-0.json
+2026-10-01T03:31:22.235585Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/person/.config/herdr/session.json workspaces=1
+2026-10-01T03:31:29.646604Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="ok" action="install" target="pi"
+2026-10-01T03:31:29.662034Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="ok" action="install" target="opencode"
+2026-10-01T03:32:44.086649Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Pi) process=pi pgid=Some(31712)
+2026-10-01T03:32:55.956593Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/person/.config/herdr/session.json workspaces=1
+2026-10-01T03:32:55.973210Z  WARN herdr::api::server: api connection failed err=timed out reading api request
+2026-10-01T03:32:56.531732Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Pi) process=pi pgid=Some(31712)
+2026-10-01T03:33:25.669368Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Pi) process=pi pgid=Some(31712)
+2026-10-01T03:33:30.366615Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/person/.config/herdr/session.json workspaces=1
+2026-10-01T03:33:47.138164Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Pi) process=pi pgid=Some(31712)
+2026-10-01T03:33:52.036137Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/person/.config/herdr/session.json workspaces=1
+2026-10-01T03:35:08.344663Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Pi) process=pi pgid=Some(31712)
+2026-10-01T03:35:13.142496Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/person/.config/herdr/session.json workspaces=1
+2026-10-01T03:35:30.689341Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Pi) process=pi pgid=Some(31712)
+2026-10-01T03:35:35.587198Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/person/.config/herdr/session.json workspaces=1
+2026-10-01T03:36:46.634810Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Pi) process=pi pgid=Some(31712)
+2026-10-01T03:36:49.651614Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(Pi) agent=None pgid=Some(26007)
+2026-10-01T03:36:52.672163Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Pi) process=pi pgid=Some(48916)
+2026-10-01T03:36:54.388209Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/person/.config/herdr/session.json workspaces=1
+2026-10-01T03:36:57.134695Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Pi) process=pi pgid=Some(48916)
+2026-10-01T03:37:00.497915Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/person/.config/herdr/session.json workspaces=1
+2026-10-01T03:37:32.720798Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(Pi) agent=None pgid=Some(26007)
+2026-10-01T03:37:37.422756Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/person/.config/herdr/session.json workspaces=1
+2026-10-01T03:37:45.319517Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Pi) process=pi pgid=Some(52491)
+2026-10-01T03:37:53.196290Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(Pi) agent=None pgid=Some(26007)
+2026-10-01T03:37:56.221269Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Pi) process=pi pgid=Some(53286)
+2026-10-01T03:38:17.032295Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(Pi) agent=None pgid=Some(26007)
+2026-10-01T03:40:17.758714Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(63341)
+2026-10-01T03:40:58.330853Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(OpenCode) agent=None pgid=Some(26007)
+2026-10-01T03:41:07.387060Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(67035)
+2026-10-01T03:42:24.074532Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(67035)
+2026-10-01T03:42:28.966719Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/person/.config/herdr/session.json workspaces=1
+2026-10-01T03:49:35.451932Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=39 cols=143 scrollback_limit_bytes=10000000
+2026-10-01T03:49:35.458667Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=101108
+2026-10-01T03:49:35.459503Z  INFO herdr::logging: tab renamed event="tab.rename" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-01T03:49:35.459542Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-01T03:49:40.565464Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/person/.config/herdr/session.json backup_path=/home/person/.config/herdr/session-snapshots/session-000000000000000000001790826580467024073-25976-0.json
+2026-10-01T03:49:40.566643Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/person/.config/herdr/session.json workspaces=1
+2026-10-01T03:49:42.886390Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-10-01T03:49:42.886559Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-01T03:49:45.254385Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-10-01T03:49:45.255637Z  WARN herdr::config::keybinds: config diagnostic invalid keybinding: keys.split_vertical = "prefix+pipe"; disabling binding
+2026-10-01T03:49:45.256309Z  WARN herdr::config::keybinds: config diagnostic invalid keybinding: keys.split_vertical = "prefix+pipe"; disabling binding
+2026-10-01T03:49:45.257131Z  WARN herdr::config::keybinds: config diagnostic invalid keybinding: keys.split_vertical = "prefix+pipe"; disabling binding
+2026-10-01T03:49:45.259083Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-10-01T03:49:47.889367Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/person/.config/herdr/session.json workspaces=1
+2026-10-01T03:50:05.838267Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 0, signal: None }"
+2026-10-01T03:50:05.838958Z  INFO herdr::pane: pane session terminated pane=2 pid=101108 signal=Hangup
+2026-10-01T03:50:10.843684Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/person/.config/herdr/session.json workspaces=1
+2026-10-01T03:51:31.133164Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-10-01T03:51:31.134403Z  WARN herdr::config::keybinds: config diagnostic invalid keybinding: keys.split_vertical = "prefix+pipe"; disabling binding
+2026-10-01T03:51:31.135017Z  WARN herdr::config::keybinds: config diagnostic invalid keybinding: keys.split_vertical = "prefix+pipe"; disabling binding
+2026-10-01T03:51:31.135863Z  WARN herdr::config::keybinds: config diagnostic invalid keybinding: keys.split_vertical = "prefix+pipe"; disabling binding
+2026-10-01T03:51:31.137874Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-10-01T03:51:31.277147Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-10-01T03:51:31.278311Z  WARN herdr::config::keybinds: config diagnostic invalid keybinding: keys.split_vertical = "prefix+bar"; disabling binding
+2026-10-01T03:51:31.278978Z  WARN herdr::config::keybinds: config diagnostic invalid keybinding: keys.split_vertical = "prefix+bar"; disabling binding
+2026-10-01T03:51:31.279792Z  WARN herdr::config::keybinds: config diagnostic invalid keybinding: keys.split_vertical = "prefix+bar"; disabling binding
+2026-10-01T03:51:31.281686Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-10-01T03:51:31.444750Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-10-01T03:51:31.449249Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-10-01T03:51:31.585975Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-10-01T03:51:31.590548Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-10-01T03:51:31.727194Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-10-01T03:51:31.728596Z  WARN herdr::config::keybinds: config diagnostic invalid keybinding: keys.split_vertical = "prefix+shift+bar"; disabling binding
+2026-10-01T03:51:31.729163Z  WARN herdr::config::keybinds: config diagnostic invalid keybinding: keys.split_vertical = "prefix+shift+bar"; disabling binding
+2026-10-01T03:51:31.730037Z  WARN herdr::config::keybinds: config diagnostic invalid keybinding: keys.split_vertical = "prefix+shift+bar"; disabling binding
+2026-10-01T03:51:31.732016Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-10-01T03:51:31.864846Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-10-01T03:51:31.866044Z  WARN herdr::config::keybinds: config diagnostic invalid keybinding: keys.split_vertical = "prefix+shift+pipe"; disabling binding
+2026-10-01T03:51:31.866636Z  WARN herdr::config::keybinds: config diagnostic invalid keybinding: keys.split_vertical = "prefix+shift+pipe"; disabling binding
+2026-10-01T03:51:31.867477Z  WARN herdr::config::keybinds: config diagnostic invalid keybinding: keys.split_vertical = "prefix+shift+pipe"; disabling binding
+2026-10-01T03:51:31.869610Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-10-01T03:51:32.060063Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-10-01T03:51:32.063382Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-10-01T03:51:32.079968Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-10-01T03:51:32.081712Z  WARN herdr::config::keybinds: config diagnostic invalid keybinding: keys.split_vertical = "prefix+shift+pipe"; disabling binding
+2026-10-01T03:51:32.082338Z  WARN herdr::config::keybinds: config diagnostic invalid keybinding: keys.split_vertical = "prefix+shift+pipe"; disabling binding
+2026-10-01T03:51:32.083273Z  WARN herdr::config::keybinds: config diagnostic invalid keybinding: keys.split_vertical = "prefix+shift+pipe"; disabling binding
+2026-10-01T03:51:32.085494Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-10-01T03:52:08.330102Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-10-01T03:52:08.333363Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-10-01T03:52:35.521061Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=39 cols=143 scrollback_limit_bytes=10000000
+2026-10-01T03:52:35.528023Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=113538
+2026-10-01T03:52:35.529382Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T03:52:37.705013Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=4 rows=39 cols=72 scrollback_limit_bytes=10000000
+2026-10-01T03:52:37.709881Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=4 pid=113719
+2026-10-01T03:52:37.710767Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T03:52:42.717952Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/person/.config/herdr/session.json workspaces=1
+2026-10-01T03:52:43.959066Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T03:52:43.959231Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T03:52:45.479615Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T03:52:45.479963Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T03:52:47.783390Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T03:52:47.783569Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T03:52:48.569240Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T03:52:48.569386Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T03:52:50.088605Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T03:52:50.088749Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T03:52:55.092927Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/person/.config/herdr/session.json workspaces=1

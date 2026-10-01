@@ -1,0 +1,15 @@
+2026-10-01T03:31:17.150739Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=25975
+2026-10-01T03:31:17.150966Z  INFO herdr::client: connecting to server path=/home/person/.config/herdr/herdr-client.sock
+2026-10-01T03:31:17.387844Z  INFO herdr::client::handshake: endpoint handshake succeeded generation=1 server_version=0.9.3
+2026-10-01T03:49:45.260586Z  WARN herdr::config::keybinds: config diagnostic invalid keybinding: keys.split_vertical = "prefix+pipe"; disabling binding
+2026-10-01T03:49:45.261742Z  WARN herdr::config::keybinds: config diagnostic invalid keybinding: keys.split_vertical = "prefix+pipe"; disabling binding
+2026-10-01T03:51:31.139277Z  WARN herdr::config::keybinds: config diagnostic invalid keybinding: keys.split_vertical = "prefix+pipe"; disabling binding
+2026-10-01T03:51:31.140657Z  WARN herdr::config::keybinds: config diagnostic invalid keybinding: keys.split_vertical = "prefix+pipe"; disabling binding
+2026-10-01T03:51:31.282810Z  WARN herdr::config::keybinds: config diagnostic invalid keybinding: keys.split_vertical = "prefix+bar"; disabling binding
+2026-10-01T03:51:31.283490Z  WARN herdr::config::keybinds: config diagnostic invalid keybinding: keys.split_vertical = "prefix+bar"; disabling binding
+2026-10-01T03:51:31.733125Z  WARN herdr::config::keybinds: config diagnostic invalid keybinding: keys.split_vertical = "prefix+shift+bar"; disabling binding
+2026-10-01T03:51:31.733986Z  WARN herdr::config::keybinds: config diagnostic invalid keybinding: keys.split_vertical = "prefix+shift+bar"; disabling binding
+2026-10-01T03:51:31.871040Z  WARN herdr::config::keybinds: config diagnostic invalid keybinding: keys.split_vertical = "prefix+shift+pipe"; disabling binding
+2026-10-01T03:51:31.872063Z  WARN herdr::config::keybinds: config diagnostic invalid keybinding: keys.split_vertical = "prefix+shift+pipe"; disabling binding
+2026-10-01T03:51:32.092912Z  WARN herdr::config::keybinds: config diagnostic invalid keybinding: keys.split_vertical = "prefix+shift+pipe"; disabling binding
+2026-10-01T03:51:32.093939Z  WARN herdr::config::keybinds: config diagnostic invalid keybinding: keys.split_vertical = "prefix+shift+pipe"; disabling binding

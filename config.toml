@@ -1,0 +1,13 @@
+onboarding = false
+
+[keys]
+prefix = "ctrl+a"
+split_vertical = ["prefix+backslash", "prefix+shift+backslash"]
+split_horizontal = "prefix+minus"
+
+[ui.toast]
+delivery = "system"
+
+[theme]
+name = "tokyo-night"
+auto_switch = false
