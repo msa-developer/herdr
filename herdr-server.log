@@ -113,3 +113,14 @@
 2026-10-01T03:52:50.088605Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
 2026-10-01T03:52:50.088749Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
 2026-10-01T03:52:55.092927Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/person/.config/herdr/session.json workspaces=1
+2026-10-01T03:54:38.313052Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T03:54:38.313168Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T03:54:40.780653Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=4 status="ExitStatus { code: 1, signal: None }"
+2026-10-01T03:54:40.781793Z  INFO herdr::pane: pane session terminated pane=4 pid=113719 signal=Hangup
+2026-10-01T03:54:45.786837Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/person/.config/herdr/session.json workspaces=1
+2026-10-01T03:55:06.161244Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=5 rows=39 cols=72 scrollback_limit_bytes=10000000
+2026-10-01T03:55:06.167746Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=5 pid=123791
+2026-10-01T03:55:06.168589Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T03:55:07.369809Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=5 status="ExitStatus { code: 1, signal: None }"
+2026-10-01T03:55:07.370632Z  INFO herdr::pane: pane session terminated pane=5 pid=123791 signal=Hangup
+2026-10-01T03:55:12.375645Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/person/.config/herdr/session.json workspaces=1
