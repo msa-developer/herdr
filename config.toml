@@ -4,6 +4,7 @@ onboarding = false
 prefix = "ctrl+a"
 split_vertical = ["prefix+backslash", "prefix+shift+backslash"]
 split_horizontal = "prefix+minus"
+toggle_sidebar = "prefix+a"
 
 [ui.toast]
 delivery = "system"

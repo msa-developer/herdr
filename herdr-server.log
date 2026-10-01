@@ -124,3 +124,14 @@
 2026-10-01T03:55:07.369809Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=5 status="ExitStatus { code: 1, signal: None }"
 2026-10-01T03:55:07.370632Z  INFO herdr::pane: pane session terminated pane=5 pid=123791 signal=Hangup
 2026-10-01T03:55:12.375645Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/person/.config/herdr/session.json workspaces=1
+2026-10-01T04:00:40.301049Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=3 status="ExitStatus { code: 0, signal: None }"
+2026-10-01T04:00:40.301841Z  INFO herdr::pane: pane session terminated pane=3 pid=113538 signal=Hangup
+2026-10-01T04:00:45.310903Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/person/.config/herdr/session.json workspaces=1
+2026-10-01T04:01:02.560759Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T04:01:07.564388Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/person/.config/herdr/session.json workspaces=1
+2026-10-01T04:01:17.127730Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-01T04:02:02.578190Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-10-01T04:02:02.582182Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-10-01T04:03:12.077400Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=6 rows=39 cols=143 scrollback_limit_bytes=10000000
+2026-10-01T04:03:12.083720Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=6 pid=157983
+2026-10-01T04:03:12.084496Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
