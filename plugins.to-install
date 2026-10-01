@@ -3,3 +3,4 @@
 # Agent: append any plugin installed later to this file.
 
 herdr plugin install paulbkim-dev/vim-herdr-navigation
+herdr plugin install iurysza/herdr-pane-layouts

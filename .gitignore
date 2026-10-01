@@ -4,6 +4,7 @@
 session.json
 session-snapshots/
 .plugins.lock
+*.lock
 
 # plugin registry + checkouts — reinstall with `herdr plugin install`
 plugins.json
